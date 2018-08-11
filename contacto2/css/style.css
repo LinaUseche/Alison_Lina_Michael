@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../images/fondo.jpg) center top;
+	font-family: Arial;
+	background-attachment: fixed;
+}
+.contacto-box{
+	width: 400px;
+	height: 500px;
+	background-color: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 30px 30px 200px 30px;
+	margin: 100px 0px 30px 0px;
+}
+.contacto-box h1{
+	margin: 0;
+	padding: 1px 0px 35px 0;
+	text-align: center;
+	font-size: 34px;
+}
+.contacto-box label{
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-size: 20px;
+}
+.contacto-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.contacto-box input[type="text"], .contacto-box input[type="password"], .contacto-box input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.button{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.button:hover{
+	background-color: #E1E1E1;
+	color: #37289D;
+	box-shadow: inset 0 0 0 3px #37289D;
+}
+
+@media screen and (max-width: 599px){
+ .contacto-box{
+ 	width: 400px;
+ 	height: 570px;
+ 	margin-top: 200px;
+ }
+ .button{ 
+ 	width: 100px;
+ 	height: 100px;
+ 	margin: 5% 0%  0% 0%;
+ }
+}
+
+
