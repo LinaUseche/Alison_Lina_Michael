@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<iframe src="head/head.html" class="iframehead"></iframe>
+	<iframe src="../templates/head.html" class="iframehead"></iframe>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Contacto</title>
@@ -28,7 +28,7 @@
 		<input class="button" type="submit" value="Enviar">
 	</form>
 <center>
-	<iframe src="foot/index.html" frameborder="0" width="200%" height="300px" scrolling="NO"></iframe>
+	<iframe src="../templates/foot/foot.html" frameborder="0" width="200%" height="300px" scrolling="NO"></iframe>
 </center>
 </div>
 </body>
