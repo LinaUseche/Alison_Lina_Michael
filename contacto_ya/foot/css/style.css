@@ -1,0 +1,46 @@
+.footer{
+	background-color: #404040;
+	width: 90%;
+	height: 170px;
+	float: left;
+}
+.redes{
+	padding: 80px 80px 0px 0px;
+	float: right;
+}
+.grafico{
+	float: left;
+	padding: 30px 0px 0px 70px;
+}
+
+input[type="radio"]{
+	display: none;
+}
+@media screen and (max-width: 800px) and (min-width: 730px){
+	.grafico{
+		padding: 50px 0 0 30px;
+	}
+	.redes{
+		color: #feafea;
+	}
+}
+@media screen and (max-width: 600px){
+	.footer{
+		height: 300px;
+	}
+	.grafico{
+		padding: 30px 0 0 20px;
+	}
+}
+@media screen and (max-width: 540px){
+	.redes{
+		padding: 30px 0 80px 0;
+		margin-right: 30%
+	}
+	.grafico{
+		margin-left: 20%;
+	}
+	.footer{
+		height: 350px;
+	}
+}
